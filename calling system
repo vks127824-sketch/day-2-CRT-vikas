@@ -1,0 +1,25 @@
+//problem --6
+//name -- calling system
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    cin >> choice;
+    
+    switch (choice) {
+        case 1:
+         case 2:
+        cout << " Transferring call to the billing and accounts department....";
+        break;
+        case 3:
+        cout << "please wait";
+        case 4:
+        cout <<" Transferring call to the support team...";
+        break;
+        default:
+            cout << "Enter a valid choice...";
+    }
+
+    return 0;
+}
